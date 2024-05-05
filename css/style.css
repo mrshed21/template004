@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main-section {
+    background-image: url(https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.contain{ 
+width: 90%;
+margin: auto;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+font-family: Arial, sans-serif;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex: 2;
+}
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 4;
+}
+.nav-cont ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-cont ul li {
+    margin: 0 10px;
+}
+.nav-cont ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;
+}
+.nav-cont ul li a:hover {
+    background-color: #7881ae;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.nav-cont ul li:last-child a {
+    background-color: #ee626b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+.main-cont {
+    width: 60%;
+    padding: 10px;
+
+}
+.main-cont h6 {
+    font-size: 20px ;
+    color: #fff;
+    letter-spacing: 0,5px;
+    text-transform: uppercase;
+}
+.main-cont H2 {
+    Font-size: 48px;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.main-cont H2:after {
+    position: absolute;
+    background-image: url(https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/caption-dec.png);
+    width: 202px;
+    height: 12px;
+    content: '';
+    left: 125px;
+    bottom: 0;
+}
+
+.main-cont p {
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+.form {
+    position: relative;
+    max-width: 450px;
+}
+.form input {
+    max-width: 450px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    padding: 0 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+
+}
+.form button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 25px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s;
+
+
+}
+
+.main-foto {
+    position: relative;
+}
+
+.main-foto img {
+  border-radius: 25px; 
+  overflow: hidden; 
+}
+
+.main-foto .price {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #008af8;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 25px;
+    font-weight: 700px;
+}
+.main-foto .offer {
+    position: absolute;
+    left: -25px;
+    bottom: -25px;
+    border-radius: 50%;
+    background-color: #ee626b;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*  ------------- Andra section -------------- */
+
+.features {
+    margin-top: -80px;
+}
+.features .container {
+    max-width: 1320px;
+}
+
+.features .container div a {
+    text-decoration: none;
+}
+.features .item {
+    padding: 35px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+
+.features .item .image {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    background-color: #0071f8;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.features .item:hover   .image  {
+    background-color: #ee626b;
+
+}
+.features .item:hover {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+    transition: all 0.9s;
+
+
+}
